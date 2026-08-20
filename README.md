@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 AI Mock Interview Platform
 
-## Getting Started
+An AI-powered mock interview platform designed to help candidates practice technical and behavioral interviews in a realistic, structured environment.
 
-First, run the development server:
+The platform provides an interactive interview experience where users can prepare for interviews, answer questions, and receive AI-assisted feedback to identify areas for improvement.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🤖 **AI-Powered Interviews** — Generate and conduct personalized mock interview sessions.
+- 💼 **Interview Preparation** — Practice questions relevant to different interview scenarios.
+- 🧠 **AI Feedback** — Get feedback on interview responses and identify areas for improvement.
+- 📊 **Interview Experience** — Structured interface for managing and completing mock interviews.
+- ⚡ **Modern UI** — Responsive and clean interface built for a smooth interview experience.
+- 🔐 **Environment-Safe Configuration** — API credentials are managed through environment variables and are not committed to the repository.
+- 🚀 **Vercel Ready** — Built with Next.js and optimized for deployment on Vercel.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+### Frontend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js 16**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### AI
 
-## Deploy on Vercel
+- **Google Gemini API**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Development & Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Node.js**
+- **npm**
+- **Git & GitHub**
+- **Vercel**
+
+---
+
+## 🏗️ Project Structure
+
+```text
+AI-Mock-Interview-Platform/
+│
+├── app/                  # Next.js application routes and pages
+├── components/           # Reusable UI components
+├── public/               # Static assets
+├── src/                  # Application source code
+├── .env.local            # Local environment variables (not committed)
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
