@@ -29,7 +29,7 @@ The platform provides an interactive interview experience where users can prepar
 
 ### AI
 
-- **Google Gemini API**
+- **Grok API**
 
 ### Development & Deployment
 
